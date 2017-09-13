@@ -1,0 +1,18 @@
+
+behave --junit --tags @pos
+behave --junit --tags @neg
+behave --junit --tags @nav
+
+cd ~/skunk_tools/test-automation-demo/web
+
+./resultspush.sh
+
+Negative Upload
+hiptest-publisher --config-file hiptest-publisher.config --push reports/TESTS-mercury_tours_web.functional_negative_tests.xml  --push-format junit
+
+Positive Upload
+hiptest-publisher --config-file hiptest-publisher.config --push reports/TESTS-mercury_tours_web.functional_positive_tests.xml  --push-format junit
+
+Navigation Upload
+hiptest-publisher --config-file hiptest-publisher.config --push reports/TESTS-mercury_tours_web.navigation_tests.xml  --push-format junit
+

@@ -1,0 +1,180 @@
+---
+- name: The landing page is open
+  uid: 01582194-8930-43fb-ad3f-7ebe4c7a443f
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: User clicks the register tab
+  uid: 31e3ee1f-7bf5-424c-bfdb-6236a2a87757
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: User clicks the cruises tab
+  uid: a1c3112b-4772-44a9-933b-ac9447df7933
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: The cruises page is displayed
+  uid: 6d5c55f3-2f78-46c3-8bd3-b7df502e3e13
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: User clicks the flight tab
+  uid: 519ab535-6f40-44d1-bf65-e6b84f69824a
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: The landing page is displayed
+  uid: 4718d8a1-6a5b-40b0-9cfd-8dc02e03c40e
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: User clicks the sign-on tab
+  uid: 2eefa36e-39ca-458e-96ae-5f552b3a3ecd
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: The sign-on page is displayed
+  uid: aaeaefa7-794a-4f2e-8932-17cb477c7dff
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: The register page is displayed
+  uid: 30d47595-d31e-4dc3-8f83-657c4c91237c
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: User completes form with "firstName" "lastName" "userName" and "password"
+  uid: 62d3b738-e054-4274-b542-ef8e8632aab0
+  parameters:
+  - name: firstName
+  - name: lastName
+  - name: userName
+  - name: password
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: User clicks the register submit button
+  uid: b03e5bc7-41d5-4cd2-b770-861eabd3db62
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: The welcome page is displayed with first name "firstName" last name "lastName"
+    and user name "userName"
+  uid: 848a610b-d5dd-4b53-9be2-1d233c7b2fc9
+  parameters:
+  - name: firstName
+  - name: lastName
+  - name: userName
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: The flights page is displayed
+  uid: 89694dd3-378a-4417-9196-b987db2d4c42
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: User clicks sign-off tab
+  uid: 8734a9c6-0413-4f0e-97b2-c7112109b5ce
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: User fills in signs on form with Username "userName" and Password "password"
+  uid: 0df91b40-0abb-4092-9732-4dd6d8a3ac27
+  parameters:
+  - name: userName
+  - name: password
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: User Signs in with Username "userName" and Password "password"
+  uid: 8055f403-9662-46f3-a48f-2eda146ce8c4
+  parameters:
+  - name: userName
+  - name: password
+  body_hash: 895edd1ff4d33b485d5d969781cf6c6b
+- name: User clicks the login submit form
+  uid: 7c6307ad-4576-479d-91f3-6938177a9925
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: User chooses to fly from "from_dest" to "to_dest"
+  uid: e9fb4eed-1b3e-444c-97fb-7f36d32f9ace
+  parameters:
+  - name: from_dest
+  - name: to_dest
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: The select a flight page is displayed
+  uid: 9aa26dbc-3dfb-48e7-b8d9-75d381f75623
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: User selects their flight
+  uid: a12baebf-f3c2-47f3-8be1-d82ad2415934
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: The book a flight page is displayed
+  uid: 6862b885-f071-4a4c-b969-eb8eccc1fcb0
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: User clicks continue after selecting flights
+  uid: 0f397ee8-c0b2-4edd-84e2-238fe045e73f
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: User clicks continue after entering flight details
+  uid: 17b58b59-68ba-4da3-b245-f1ff5c86005f
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: User fills in passenger and billing details with first name "firstName" middle
+    name "middleName" and last name "lastName"
+  uid: 23927ac0-a0d8-423c-b09a-26816ec45d62
+  parameters:
+  - name: firstName
+  - name: middleName
+  - name: lastName
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: User clicks secure purchase
+  uid: e4d34c3d-1752-4938-8f42-d4bd5647725b
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: User chooses to fly on the "date" of "month"
+  uid: 05970b09-3f5e-4db8-9555-5b448477554c
+  parameters:
+  - name: date
+  - name: month
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: User chooses to return on the "date" of "month"
+  uid: 434464af-976d-46c9-9572-ef0404aa19dd
+  parameters:
+  - name: date
+  - name: month
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: User chooses their class as "service_class"
+  uid: b75f91f5-c47d-4fae-8611-26a6ec956d76
+  parameters:
+  - name: service_class
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: Flight page displays destinations as from "from_dest" to "to_dest"
+  uid: 57821285-e894-4bab-a301-5b760315c4ab
+  parameters:
+  - name: from_dest
+  - name: to_dest
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: Flight page displays the departure date as "dep_date" and the return as "ret_date"
+  uid: e4fd71c9-fe94-4420-a798-5329e6ce7d14
+  parameters:
+  - name: dep_date
+  - name: ret_date
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: User checks Ticketless Travel and Same as billing address checkboxes
+  uid: 1b3fc486-b976-46f9-a6ab-fc0bd82e94b8
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: User signs in from landing page with Username "userName" and Password "password"
+  uid: cca8ee02-0169-41bf-90b8-e3bcd95e13b1
+  parameters:
+  - name: userName
+  - name: password
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: The confirmation page is displayed with "bill_payer" paying the bill
+  uid: 115ef6bd-d57f-4a5c-80ee-7a455abfc09a
+  parameters:
+  - name: bill_payer
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: The user confirmed their flights
+  uid: d402323b-a213-449c-a57d-03a8c8c3864b
+  parameters: []
+  body_hash: 0b005568de84e3878c35917db8774ae2
+- name: 'The menu is displayed as "menu_display" '
+  uid: a3016562-dcde-4f85-a041-01f3626ea925
+  parameters:
+  - name: menu_display
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: User clicks itinerary tab
+  uid: 0810751e-fbd6-4095-ac46-e7696214fddf
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: The itinerary page is displayed
+  uid: 126e6d87-f503-4e6e-8420-0a1df0482601
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
